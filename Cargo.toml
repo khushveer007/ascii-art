@@ -1,0 +1,17 @@
+[package]
+name = "ascii-art-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Convert images to colorized ASCII art in the terminal"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+image = "0.24"
+imageproc = "0.23"
+terminal_size = "0.3"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
+tempfile = "3"

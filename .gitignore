@@ -1,0 +1,25 @@
+# BMAD (local only)
+.bmad-core/
+docs/
+
+# IDE and Editor
+.vscode/
+.github/
+.idea/
+*.swp
+*.swo
+*~
+
+# Rust
+target/
+Cargo.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary and test files
+*.tmp
+*.bak
+test_brightness
+test_brightness.rs
